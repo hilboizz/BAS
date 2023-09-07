@@ -355,9 +355,8 @@ def passwrdh():
 				if len(nmf)<6:
 					if len(frs)<3:
 						pass
-					else:
-			  		pwv.append(nmf)
-						pwv.append(frs+'321')
+					else:		  		
+					        pwv.append(frs+'321')
 						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
